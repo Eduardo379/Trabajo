@@ -1,0 +1,208 @@
+body{
+	/*Este background rgb se reemplazará pronto por un fondo de granos de cafe*/
+	background:rgba(243, 182, 50, 0.678);
+	background-size:cover;
+	font-family: 'Noto Sans JP', 'sans-serif';
+	width:auto;
+	height:auto;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	min-height:100vh; 
+}
+
+.containerAll{
+	width:100%;
+	height:450px;
+	/*La imagen de fondo tiene que ser un SVG para poderla trabajar de manera satisfactoria, debido a que cuando se hace más
+	grande la imagen se presentan los píxeles*/
+	background-image:url(../assets/Font.png);
+	background-size:cover;
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+/*-------------Menu de navegacion---------------*/
+nav{
+	font-family:'Georgia';
+}
+
+nav ul{
+    list-style:none;
+    padding:0;
+}
+
+nav li{
+    line-height:3rem;
+    font-size:16.5px;
+}
+
+nav a{
+    color:#fff;
+    display:block;
+    padding:0 1.5em;
+    text-decoration:none;
+    transition:.5s;
+}
+
+nav a:hover{
+    background:rgba(245, 241, 241, 0.925);
+    color:#000000;
+    border-radius:5px;
+}
+
+nav ul ul{
+    display:none;
+}
+
+nav > ul{
+    background:transparent;
+    display:table;
+}
+
+nav > ul > li{
+    float:left;
+}
+
+.containerNav{
+    position:absolute;
+   	top:0%;
+   	right:15em;
+    padding:0;
+    display:flex;
+    float:right;
+}
+
+.BuyNow{
+	background:#ff8800;;
+    width:10%;
+    height:7.5%;
+    color:#fff;
+    float:right;
+    position:relative;
+    top:1.8em;
+    right:8em;
+    border-radius:15px;
+    border:none;
+}
+
+.BuyNow:hover{
+	cursor:pointer;
+	background:orange;
+	transition:all .2s;
+}
+
+/*--------------------------------*/
+
+.containerTitulos{
+	width:500px;
+	height:100px;
+	background:transparent;
+	color:#fff;
+	font-size:18px;
+	position:relative;
+	top:9em;
+	left:15%;
+}
+
+.button{
+	width:30%;
+    height:45%;
+    border:none;
+    font-size:16px;
+    cursor:pointer;
+    color:#fff;
+    border-radius:20px;
+    background:#ff8800;
+}
+
+.button:hover{
+	background:orange;
+	transition:all .2s;
+}
+
+img{
+	position:relative;
+	margin-top:10px;
+	margin-right:10px;
+	margin-left:10px;
+	border-radius:2px;
+}
+
+img:hover{
+	width:180px;
+	height:185px;
+	transition:all .2s;
+}
+
+.containerArticulos{
+	width:630px;
+	height:500px;
+	background:transparent;
+	position:relative;
+	top:350px;
+}
+
+.containerParrafos{
+	width: 495px;
+    max-height: max-content;
+    height:100%;
+	background:transparent;
+	font-size:35px;
+	position:relative;
+	bottom: 44%;
+    left: 54%;
+}
+
+.pr{
+	font-size:25px;
+}
+/*-----------BOTONES-------------*/
+
+.pg-1{
+	background:#3860EC;
+	width:140px;
+	height:45px;
+	padding:15.5px;
+	color:#fff;
+	font-size:15px;
+	border:none;
+	border-radius:7px;
+	position:relative;
+	top:35.5%;
+	bottom:0;
+	left:40%;
+	right:0;
+	cursor:pointer;
+	text-transform:uppercase;
+	transition:.3s ease all;
+}
+
+.pg-1:hover{
+	background:red;
+}
+
+.pg-2{
+	background:#3860EC;
+	width:140px;
+	height:45px;
+	padding:15.5px;
+	color:#fff;
+	font-size:15px;
+	border:none;
+	border-radius:7px;
+	position:relative;
+	top:35.5%;
+	bottom:0;
+	left:41%;
+	right:0;
+	cursor:pointer;
+	text-transform:uppercase;
+	transition:.3s ease all;
+}
+
+.pg-2:hover{
+	background:red;
+}

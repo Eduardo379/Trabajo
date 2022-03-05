@@ -1,0 +1,206 @@
+body{
+	/*El fondo tiene que ser un fondo claro para mas contexto en la web*/
+	/*Fondo se podria cambiar por un SVG*/
+	/*cambiar fondo y trabajar en ello*/
+	background-image:url(../assets/00.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	max-width:100%;
+	width:auto;
+	height:auto;
+	margin:0;
+	font-family:'Georgia', 'Sans-serif';
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	min-height:100vh; 
+}
+
+/*Arreglar despues*/
+.marca{
+    width:15.5%;
+    position:relative;
+    bottom:19.5em;
+    right:12em;
+}
+
+/*-----------Menu de navegación----------------*/
+nav ul{
+    list-style:none;
+    padding:0;
+}
+
+nav li{
+    line-height:3rem;
+    font-size:16.5px;
+}
+
+nav a{
+    color:#fff;
+    display:block;
+    padding:0 1.3em;
+    text-decoration:none;
+    transition:.5s;
+}
+
+nav a:hover{
+    background:rgba(0,0,0,.5);
+    border-radius:5px;
+}
+
+nav ul ul{
+    display:none;
+}
+
+nav > ul{
+    background:transparent;
+    display:table;
+}
+
+nav > ul > li{
+    float:left;
+}
+
+.containerNav{
+    position:absolute;
+   	top:0%;
+   	right:0;
+    padding:0;
+    display:flex;
+    float:right;
+}
+
+/*----------- Contenido -------------------*/
+
+.ptfolio{
+	text-transform:uppercase;
+    color:#fff;
+    position:absolute;
+    transform:translateX(0%);
+    top:2em;
+    border-bottom-width:2px;
+    border-bottom-style:solid;
+    border-bottom-color:#4E4E4E;
+}
+
+/*cambiamos el max-width por width, logrando con esto que no se rompa cuando se hace más chica la estructura del 
+contenedor*/
+.contenedor{
+    background:#F5F5F5;
+    width:41em;
+    height:29em;
+    border-radius:5px;
+    position:absolute;
+    transform:translate(0%, 13%);
+}
+
+.profile{
+	display:block;
+	margin-top:23px;
+    margin-left:25px;
+	margin-bottom:60px;
+	border-radius:3px;
+}
+
+.alert{
+	font-size:25px;
+    width:3.5em;
+    height:1.3em;
+    background:#4E4E4E;
+    color:#fff;
+    border-radius:2px;
+    text-align:center;
+    text-transform:uppercase;
+    position:absolute;
+    top:1em;
+    right:45.3%;
+}
+
+.parrafos{
+    width:16em;
+    height:auto;
+    font-size:17.5px;
+    background:transparent;
+    position:absolute;
+    top:4em;
+    bottom:auto;
+    left:15.6em;
+}
+
+ /*-----------------ICONOS----------------------*/
+ /*Estos íconos tienen que estar bien trabajados*/
+/*Establecimos en width de 660px a 100% logrando con esto que no se rompa cuando se hace más chica la estructura del 
+contenedor*/
+.container-icons{
+	background:#4E4E4E;
+	width:100%;
+	height:50px;
+	position:absolute;
+	top:417px;
+}
+
+i{
+	font-size:25px;
+	display:inline-block;
+}
+
+.enlaceFb{
+	position:absolute;
+	left:225px;
+	bottom:14px;
+	color:#fff;
+}
+
+.enlaceFb:hover{
+	color:#1443C1;
+	transition:all .5s;
+}
+
+.enlaceIn{
+	position:absolute;
+	left:305px;
+	bottom:14px;
+	color:#fff;
+}
+
+.enlaceIn:hover{
+	color:#E1306C;
+	transition:all .5s;
+}
+
+.enlaceGh{
+	position:absolute;
+	left:385px;
+	bottom:14px;
+	color:#fff;
+}
+
+.enlaceGh:hover{
+	color:#171515;
+	transition:all .5s;
+}
+
+/*-----------------BOTONES-----------*/
+
+.pg-1{
+	background:#3860EC;
+	width:140px;
+	padding:2%;
+	color:#fff;
+	font-size:15px;
+	border:none;
+	border-radius:7px;
+	position:relative;
+	top:4em;
+	left:38%;
+	right:0;
+	cursor:pointer;	
+	text-transform:uppercase;
+}
+
+.pg-1:hover{
+	background:#0860DC;
+	transition:.3s ease all;
+}
+

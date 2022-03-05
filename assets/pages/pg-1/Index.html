@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Coffee Shop</title>
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+		<link rel="shorcut icon" type="image/x-icon" href="../../mi.png">
+	</head>
+
+	<body>
+		<div class="containerAll">
+
+		<div class="containerNav">
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Shop</a></li>
+					<li><a href="#">Contacts</a></li>
+				</ul>
+			</nav>
+		</div>
+
+			<a href="#"><input type="button" class="BuyNow" value="Buy Now"></a>
+
+			<div class="containerTitulos">
+				<h1>Elite Coffee Brans</h1>
+				<p class="pr">Coffee shop is the place where you can get flavorful coffee strains from global elite brands and roasters at very affordable price.</p>
+				<a href="#principal"><input type="button" class="button" value="Read More"></a>
+			</div>
+
+			<!--Aqui se debe quitar el Div porque no será un modelo caja sino una sección de contenido
+				con articulos, para así mejorar el diseño y modificación-->
+			<div class="containerArticulos">
+				<!--estos articulos tendrá un enlace donde se pueda ver el articulo en la sección de articulos para que el cliente tenga la opción de hacer su debida compra-->
+				<!--Enlazamos la primera imagen con un enlace a para que el cliente vea la imagen a gusto pero hay que acomodarlo-->
+				<a target="_blank" href="articles/article1.html"><img src="assets/09.jpg" width="177" height="180"></a>
+				<img src="assets/05.jpg" width="177" height="180">
+				<img src="assets/04.jpg" width="177" height="180">
+				<img src="assets/09.jpg" width="177" height="180">
+				<img src="assets/05.jpg" width="177" height="180">
+				<img src="assets/04.jpg" width="177" height="180">
+				<img src="assets/09.jpg" width="177" height="180">
+				<img src="assets/05.jpg" width="177" height="180">
+				<img src="assets/04.jpg" width="177" height="180">
+			</div>
+
+			<div class="containerParrafos">
+				<h2>Who we are</h2>
+				<p class="pr" id="principal"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+
+				<h2>Why we?</h2>
+				<p class="pr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoonsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+			</div>
+
+			<!--Se diseñarán dos botones (enlace a dentro del enlace habrá un div) uno de Next Page y en otro de Post Page -->
+				<input type="button" value="Post Page" class="pg-1" onclick="window.location.href='../../../index.html'">
+				<input type="button" value="Next Page" class="pg-2" onclick="window.location.href='../../../index.html'">
+				
+		</div>
+	</body>
+</html>
